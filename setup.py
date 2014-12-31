@@ -9,9 +9,11 @@ sys.path.insert(1, wd)
 readme = open(os.path.join(wd, 'README.rst'), 'r').readlines()
 long_description = ''.join(readme)
 
+version = __import__('burninator').__version__
+
 setup(
     name='burninator',
-    version='0.0.1',
+    version=version,
     description='Burnination Library for Python',
     long_description=long_description,
     author='Evan Cordell',
