@@ -1,1 +1,1 @@
-from burninator import Burninator
+from .burninator import Burninator
