@@ -1,5 +1,10 @@
 import os
+import sys
 from setuptools import find_packages, setup
+
+wd = os.path.dirname(os.path.abspath(__file__))
+os.chdir(wd)
+sys.path.insert(1, wd)
 
 readme = open(os.path.join(wd, 'README.rst'), 'r').readlines()
 long_description = ''.join(readme)
