@@ -9,3 +9,6 @@ python-coveralls>=2.4.2
 sphinx>=1.2.3
 yanc
 tox
+bumpversion
+wheel
+twine
