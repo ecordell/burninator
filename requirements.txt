@@ -6,5 +6,6 @@ nose==1.3.4
 mock>=1.0.1,<1.0.99
 coverage>=3.6,<3.99
 python-coveralls>=2.4.2
+sphinx>=1.2.3
 yanc
 tox
