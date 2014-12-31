@@ -1,0 +1,1 @@
+from burninator import Burninator
